@@ -1,1 +1,19 @@
+@font-face {
+  font-family: 'Uthmani';
+  src : url('../fonts/UthmanicHafs1_Ver09.otf') format('truetype');
+}
 
+.arabic{
+	font-family: 'Uthmani', serif;
+	font-size: 22px; font-weight: normal;
+	direction:rtl;
+	padding : 20px 5px 10px 0;
+	margin : 10px 0 5px 0;
+}
+.latin {
+	font-family: serif;
+	font-size: 14px; font-weight: normal;
+	direction:ltr;
+	padding : 0;
+	margin : 0;
+}
