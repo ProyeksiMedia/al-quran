@@ -1,4 +1,4 @@
-[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media)
+[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media) ## PROYEKSI-MEDIA
 
 ## Al-Quran Software Desktop
 
