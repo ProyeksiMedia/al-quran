@@ -72,11 +72,9 @@ npm run dev
 Initial Release
 
 ## Authors
-[Eddy Proyeksi](https://proyeksi-media.com)
-
-[Sonny Bachtiar](https://gateway-id.com)
-
-[Catur Iswanto](https://konsultanku.com)
+* [Eddy Proyeksi](https://proyeksi-media.com)
+* [Sonny Bachtiar](https://gateway-id.com)
+* [Catur Iswanto](https://konsultanku.com)
 
 ## License
 
