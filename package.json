@@ -1,0 +1,64 @@
+{
+  "name": "Al-Quran",
+  "version": "1.0.0",
+  "description": "Alquran Project Software Desktop - Electron",
+  "main": "main.js",
+  "bin": "cli.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "test": "mocha && standard",
+    "package": "npm-run-all package:*",
+    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out --icon=assets/img/app.icns --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist",
+    "package:win": "electron-packager . --overwrite --platform=win32 --arch=x64 --out=out --icon=assets/img/app.ico",
+    "package:linux": "electron-packager . --overwrite --platform=linux --arch=x64 --out=out",
+    "package:sign-exe": "signcode './out/Alquran-win32-x64/Alquran.exe' --cert ~/al-quran.p12 --prompt --name 'Al-Quran' --url 'http://electron.atom.io'",
+    "package:installer": "node ./script/installer.js",
+    "package:sign-installer": "signcode './out/windows-installer/Al-Quran.exe' --cert ~/al-quran.p12 --prompt --name 'Al-Quran' --url 'http://electron.atom.io'",
+    "xpackage:mas": "./script/mas.sh",
+    "windows-store": "node ./script/windows-store.js",
+    "release": "node ./script/release.js",
+    "prepack": "check-for-leaks",
+    "prepush": "check-for-leaks"
+  },
+  "repository": "https://github.com/ProyeksiMedia/al-quran",
+  "keywords": [
+    "Al-Quran",
+    "project",
+    "desktop",
+    "sofwtware",
+    "electron"
+  ],
+  "author": "Eddy Proyeksi",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "check-for-leaks": "^1.2.1",
+    "devtron": "^1.4.0",
+    "electron-packager": "^12.2.0",
+    "electron-winstaller": "^2.7.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.5",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.2",
+    "signcode": "^0.5.0",
+    "spectron": "^5.0.0",
+    "standard": "^8.6.0",
+    "electron": "^7.1.1"
+  },
+  "dependencies": {
+    "electron-log": "^2.2.17",
+    "electron-settings": "^3.2.0",
+    "electron-shortcut-normalizer": "^1.0.0",
+    "glob": "^7.1.3",
+    "highlight.js": "^9.13.1",
+    "update-electron-app": "^1.3.0"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
+}
