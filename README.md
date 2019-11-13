@@ -1,4 +1,4 @@
-[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo.jpg)](https://proyeksi-media)
+[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media)
 
 ## Al-Quran Software Desktop versi 1.0.0
 
@@ -66,6 +66,14 @@ atau :
 ```sh
 npm run dev
 ```
-Kami sangan menghargai kontribusi anda untuk dapat mengembangkan Aplikasi ini,
 
-Terimakasih
+## Changelog
+#### V 1.0.0
+Initial Release
+
+## Authors
+[Proyeksi-Media](https://proyeksi-media.com)
+
+## License
+
+Al-Quran Bahasa Indonesia dilisensikan di bawah Lisensi MIT (MIT). Yang berarti Anda dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan / atau menjual salinan produk akhir. Tetapi Anda selalu perlu menyatakan bahwa [Proyeksi-Media](https://proyeksi-media.com) adalah penulis asli aplikasi ini
