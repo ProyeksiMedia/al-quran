@@ -1,6 +1,6 @@
 [![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media)
 
-## Al-Quran Software Desktop versi 1.0.0
+## Al-Quran Software Desktop
 
 Dibuat dengan mengunakan [Electron framework](https://electronjs.org) yaitu Framework cross-platform desktop yang mengunakan JavaScript, HTML and CSS  based on [Node.js](https://nodejs.org/) and
 [Chromium](https://www.chromium.org)
