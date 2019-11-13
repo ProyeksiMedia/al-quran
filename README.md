@@ -1,4 +1,4 @@
-[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media)
+[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo2.png)](https://proyeksi-media) :: ## PROYEKSI-MEDIA
 
 ## Al-Quran Software Desktop versi 1.0.0
 
@@ -72,7 +72,9 @@ npm run dev
 Initial Release
 
 ## Authors
-[Proyeksi-Media](https://proyeksi-media.com)
+[Eddy Proyeksi](https://proyeksi-media.com)
+[Sonny Bachtiar](https://gateway-id.com)
+[Catur Iswanto](https://konsultanku.com)
 
 ## License
 
