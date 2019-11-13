@@ -1,4 +1,5 @@
-# al-quran
+[![Proyeksi-Meida Logo](https://proyeksi-media.com/proyeksi-media/third_party/assets/img/logo.jpg)](https://proyeksi-media)
+
 Alquran Project Software Desktop - Electron
 
 ##install electron
